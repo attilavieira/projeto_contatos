@@ -15,4 +15,8 @@ form.addEventListener('submit', function(e) {
 
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas;
+
+    inputNomeContato.value = '';
+    inputTelefoneContato.value = '';
+    
 });
